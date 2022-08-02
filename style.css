@@ -1,0 +1,144 @@
+/* Design Systems
+
+Fonts:
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+- FONT SIZES SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* ------------------- */
+/*     Global  Reset         */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Reset Font Weights */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #111111;
+}
+
+/* ********************** */
+/* Header */
+/* ********************** */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-top: 2.4rem;
+}
+
+.logo {
+  width: 12.4rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+
+  display: flex;
+  gap: 6.4rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-img {
+  width: 83%;
+}
+
+.hero-left-section {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.hero-right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #bb2935;
+}
+
+.heading-name {
+  font-size: 5.6rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.596);
+  width: 45%;
+  margin-bottom: 4.6rem;
+  /* letter-spacing: 0.5px; */
+}
+
+.hero-btn-div a {
+  text-decoration: none;
+  padding: 1.2rem 3.2rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #bb2935;
+}
