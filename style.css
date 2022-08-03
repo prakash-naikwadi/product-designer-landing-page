@@ -99,6 +99,7 @@ body {
 }
 
 .hero-img {
+  display: inline-block;
   width: 83%;
 }
 
@@ -141,4 +142,127 @@ body {
   font-size: 1.4rem;
   color: #fff;
   background-color: #bb2935;
+}
+
+/* ********************** */
+/* Feature Section */
+/* ********************** */
+
+.feature-section {
+  background-color: #1e1e1e49;
+  height: 100%;
+  background: linear-gradient(90deg, #1e1e1e49 50%, #111111 50%);
+  padding: 7rem 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.feature-container {
+  max-width: 100rem;
+  margin: 0 auto;
+  color: #fbfbfb;
+  /* margin-top: 2rem; */
+}
+
+.feature-section img {
+  width: 25%;
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.8rem;
+}
+
+.card {
+  padding: 1.8rem 1.8rem 1.8rem 5.6rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 2.4rem;
+  background-color: #1e1e1e;
+}
+
+.active-card {
+  background-color: #c91b28;
+}
+
+.card-logo {
+  /* text-align: center; */
+}
+
+.card-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.card-description {
+  font-size: 1.6rem;
+  width: 70%;
+}
+
+.card-link a {
+  color: #f43242;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.active-card .card-link a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.feature-statistics {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 0.9rem;
+
+  margin-top: 4.2rem;
+}
+
+.statistics-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8rem;
+}
+
+.years-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-of-years {
+  font-size: 6.4rem;
+  font-weight: 800;
+  color: #c91b28;
+}
+
+.year-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.statistics-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 3.2rem;
+
+  background-color: #1e1e1e;
+}
+
+.statistics-number {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #c91b28;
+}
+
+.statistics-text {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.596);
 }
