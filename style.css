@@ -71,11 +71,12 @@ body {
 
   max-width: 120rem;
   margin: 0 auto;
-  padding-top: 2.4rem;
+  padding: 2.4rem 1.2rem 0 1.2rem;
 }
 
 .logo {
   width: 12.4rem;
+  margin-right: 2.4rem;
 }
 
 .nav-list {
@@ -92,6 +93,11 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   color: #fff;
+  transition: all 0.25s;
+}
+
+.nav-list a:hover {
+  color: #c91b28;
 }
 
 .hero-section {
@@ -133,7 +139,6 @@ body {
   color: rgba(255, 255, 255, 0.596);
   width: 45%;
   margin-bottom: 4.6rem;
-  /* letter-spacing: 0.5px; */
 }
 
 .hero-btn-div a {
@@ -142,6 +147,11 @@ body {
   font-size: 1.4rem;
   color: #fff;
   background-color: #bb2935;
+  transition: all 0.25s;
+}
+
+.hero-btn-div a:hover {
+  background-color: #bb29358a;
 }
 
 /* ********************** */
@@ -172,6 +182,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1.8rem;
+
+  padding: 0 1.2rem 0 1.2rem;
 }
 
 .card {
@@ -185,10 +197,6 @@ body {
 
 .active-card {
   background-color: #c91b28;
-}
-
-.card-logo {
-  /* text-align: center; */
 }
 
 .card-heading {
@@ -218,7 +226,8 @@ body {
   grid-template-columns: 1fr 2fr;
   column-gap: 0.9rem;
 
-  margin-top: 4.2rem;
+  margin-top: 9.6rem;
+  padding: 0 1.2rem 0 1.2rem;
 }
 
 .statistics-cards {
@@ -265,4 +274,181 @@ body {
 .statistics-text {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.596);
+}
+
+/* ********************** */
+/* Featured Projects Section */
+/* ********************** */
+
+.featured-projects-section {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 1.8rem 0 1.8rem;
+}
+
+.featured-projects-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+
+  margin-bottom: 2.4rem;
+  padding: 0 1.2rem 0 1.2rem;
+}
+
+.featured-projects-text h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.featured-projects-text p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.589);
+  margin-top: 1.2rem;
+}
+
+.view-all-btn-div a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  background-color: #f43242;
+  padding: 1rem 2.8rem;
+  transition: all 0.35s;
+}
+
+.view-all-btn-div a:hover {
+  background-color: #f4324294;
+}
+
+.featured-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  row-gap: 2.4rem;
+  column-gap: 2.4rem;
+}
+
+.featured-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  height: 30rem;
+  max-width: 43.5rem;
+}
+
+.featured-projects-section .img-div img {
+  width: 90%;
+  object-fit: contain;
+  transition: all 0.35s;
+  /* max-height: 27.5rem; */
+  /* display: block; */
+}
+
+.featured-projects-section .img-div img:hover {
+  transform: scale(1.1);
+}
+
+.know-more-btn a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #f43242;
+}
+
+/* ********************** */
+/* call to action Section */
+/* ********************** */
+
+.cta-section {
+  max-width: 110rem;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 6.4rem;
+  margin-top: 9.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.cta-description {
+  width: 60%;
+}
+
+.cta-heading {
+  font-size: 4.6rem;
+  font-weight: 700;
+  color: #fff;
+  width: 90%;
+}
+
+.cta-text {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.61);
+  margin-top: 2.4rem;
+}
+
+.contact-btn-div a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f43242;
+  padding: 1.2rem 3.6rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.35s;
+}
+
+.contact-btn-div a:hover {
+  background-color: rgba(244, 50, 66, 0.568);
+}
+
+/* ********************** */
+/* Footer Section */
+/* ********************** */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1e1e1e;
+  padding: 3.2rem;
+}
+
+.footer-logo {
+  max-width: 12.4rem;
+}
+
+.social-icons-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icons-img {
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  transition: all 0.35s;
+}
+
+.social-icons-img:hover {
+  cursor: pointer;
+  color: #c91b28;
 }
