@@ -452,3 +452,77 @@ footer {
   cursor: pointer;
   color: #c91b28;
 }
+
+/* ************************** */
+/* Media Queries */
+/* ************************** */
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 78em) {
+  .feature-cards {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+  .feature-statistics {
+    grid-template-columns: 1fr;
+  }
+  .featured-projects-heading {
+    flex-direction: column;
+  }
+  .featured-projects-text {
+    text-align: center;
+  }
+  .view-all-btn-div {
+    margin-top: 2.4rem;
+  }
+  .years-experience {
+    margin-bottom: 3.2rem;
+  }
+
+  .featured-projects {
+    grid-template-columns: 1fr;
+  }
+  .featured-project {
+    align-items: center;
+  }
+}
+
+/**************************/
+/* BELOW 900px  */
+/**************************/
+@media (max-width: 56em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  .cta-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-heading {
+    margin-right: 0 !important;
+    text-align: center;
+  }
+
+  .contact-btn-div {
+    padding-top: 6.4rem;
+  }
+}
+
+/**************************/
+/* BELOW 700px  */
+/**************************/
+@media (max-width: 43em) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-right-section {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    align-items: center;
+  }
+}
