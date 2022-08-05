@@ -526,3 +526,20 @@ footer {
     align-items: center;
   }
 }
+
+/**************************/
+/* BELOW 550px  */
+/**************************/
+@media (max-width: 35em) {
+  html {
+    /* 7px / 16px = 0.5 = 50% */
+    font-size: 43%;
+  }
+  .nav-list {
+    display: none;
+  }
+
+  .hero-description {
+    text-align: center;
+  }
+}
