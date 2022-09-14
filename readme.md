@@ -1,6 +1,6 @@
 ## ⭐ Product Designer Landing Page Project 15 ⭐
 
-This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
+This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
 <br>
 <br>
 
@@ -33,7 +33,7 @@ This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"**
 👉 learn about `transform:scale(1.1)` property.  
 👉 Learn about adding some animations using the `transition` property on the hover effect.  
 👉 Learn how to add background color to half part of the container using `linear-gradient`.  
-👉 placed elements using flex and grid properties.  
+👉 Placed elements using flex and grid properties.  
 👉 How to develop full fledge landing page.
 
 ## 📬 Connect With Me
